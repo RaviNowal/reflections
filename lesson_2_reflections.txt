@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a git repository is initialized, an empty hidden repository is created in the directory where the git init command was used. 
+The directory can be viewed by using ls-a command that shows all files including the hidden ones. The files are hidden 
+as git ensures that the files that are not needed to be seen can be kept hidden as a meta deta.
+
+The initialization is important as we can cretae a project and put it in a git an d commit so that we can take advantage of git

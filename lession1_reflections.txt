@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using the diff command helped me spot those lines in particular that differs from each other in the two files. 
+It narrowed down my search to a very small relevant portion so that I can spot any bug or typo easily and correct it in the respective file.
+The manual work of comparing the two files line after line was not needed anymore. It saved my time and improved my accuracy
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having a history of a file helps me to spot the changes in the previous version and the differences with the current versions.
+Moreover, I am able to efficiently improve upon my versions by having a copy of the old version as a reference. 
+The old version sometimes teaches a programmer what are the areas o improvements that can be implemented in the current version
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+Manual Choosing allows the programmer to make a logical judgement as to when a version should be created based on chnages made. 
+It can allow the progrmmer to make one version per logical change. However, having a manual choice to commit can be a disadvantage in case
+we forget to commit at logical checkpoints. In this case, the auto save feature in some version control like Google Docs helps as 
+it saves the file and create a version after certain regular intervals.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+In some cases, it is important to track multiple files at he same time because they are interrelated.
+In Git for example, there might be a CSS and a corresponding highly related HTML file. In this case changes must be reflected
+on both of them. Hnece a commit should track multiple tracks. 
+
+In case of Googl Docs, usually one file may not be related to other files in te doc, hence they use sinle file tracking method'.	
+
+How can you use the commands git log and git diff to view the history of files?
+
+The git log command prints all the versions of the git along with the time and the comments that were added in the version while commiting.
+The git diff followed by the two git IDs help us differentiate the changes that were made in the two versions
+The changes that were made will be highlighted in color if we run this command first $git config --global color.ui.auto
+The red color indicates line deleted from the previous commit and green indicates the lines that were added
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Having a version control ensures that whatever logical changes I make, 
+I can always get back it provided I have made a commit at each logical checkpoints. 
+If I find a bug, then I can load the previous vesion using git checkout <commit id> command.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to use to make projects and easily and freely experiment with it. I can use commit to add checkpoints wherever needed.
