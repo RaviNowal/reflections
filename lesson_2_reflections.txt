@@ -5,3 +5,9 @@ The directory can be viewed by using ls-a command that shows all files including
 as git ensures that the files that are not needed to be seen can be kept hidden as a meta deta.
 
 The initialization is important as we can cretae a project and put it in a git an d commit so that we can take advantage of git
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The satging area is a concept in git that allows us to decide which files are to be added in the git repository
+The files are currrently plcaed in the working directory. The staging area is different from both working directory and repository
+and alllows us to interface the repository with the currrent directory.
