@@ -20,3 +20,7 @@ That way we can commit per logical change even though we might ahve made several
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 The branches help us make experimental changes to our code which we are not sure of experimenting. For example, adding a feature that needs to be tested and improved in order to fully implement in. We can always make a commit to the changes and avoid branches by checking out an older commit to restore. However, this can get a little tedious as we keep on experimenting with our codes. Hence branches help us in forming an alternative path where we can experiment and switch to the master branch as and when required.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The merge of two branches helps in bringing all the changes back to a common commit. This way changes made by two people say two developers one working with design while other working with feature can bring back their versions to a common commit through merging. 
