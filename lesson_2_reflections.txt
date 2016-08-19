@@ -11,3 +11,12 @@ How is the staging area different from the working directory and the repository?
 The satging area is a concept in git that allows us to decide which files are to be added in the git repository
 The files are currrently plcaed in the working directory. The staging area is different from both working directory and repository
 and alllows us to interface the repository with the currrent directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area lets us know whatever changes that we have made in our working directory. That way we can see all the logical changes that have been done and commit per logical change. The staging area allows revsisiting the most recent changes made and decide whether to commit or not.
+That way we can commit per logical change even though we might ahve made several changes in the working directory.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+The branches help us make experimental changes to our code which we are not sure of experimenting. For example, adding a feature that needs to be tested and improved in order to fully implement in. We can always make a commit to the changes and avoid branches by checking out an older commit to restore. However, this can get a little tedious as we keep on experimenting with our codes. Hence branches help us in forming an alternative path where we can experiment and switch to the master branch as and when required.
