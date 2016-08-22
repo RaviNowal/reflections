@@ -6,3 +6,10 @@ Why might you want to always pull changes manually rather than having Git automa
 
 If Git automatically stays up to date with all our commit, it will have all the commit that we make in remote. However, sometimes,I may not wish to pull the changes I made in remote to my local machine as I do not wish to add those commits at the moment in local. Hence, I would prefer manual pull.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches are additional path that we create on git or github in th same repository. They are used to make changes that can later be merged in to the original branch(master). This helps in carrying out changes seperately without affecting the current design. The default branch is master.
+
+Cloning means making a copy from one repository to another. We can clone from a remote GitHub repository to a local Git repository. We can also clone one local repository to another local repository.
+
+Forks are used in GitHub to clone a repository between two GitHub accounts. If I wish to edit or modify a repository that someone else has created, then we can clone it to our own GitHub remote repository via fork option in GitHub
