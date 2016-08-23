@@ -13,3 +13,7 @@ Branches are additional path that we create on git or github in th same reposito
 Cloning means making a copy from one repository to another. We can clone from a remote GitHub repository to a local Git repository. We can also clone one local repository to another local repository.
 
 Forks are used in GitHub to clone a repository between two GitHub accounts. If I wish to edit or modify a repository that someone else has created, then we can clone it to our own GitHub remote repository via fork option in GitHub
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit is that if last known state of remote is stored locally(usually called as origin/<local branch name>), we can work and analyse the content in github repository even when we are offline for example, say we are about to catch a plane and want to see the remote repository or match it with local. Hence the "Git fetch" command really helps in this case to get a local copy of the remote
