@@ -21,4 +21,6 @@ The benefit is that if last known state of remote is stored locally(usually call
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without Git or GitHub, I would be either seperately saving each versio of the changes with a different name or make comments for each change with date time and reason for change. It would have been much harder sithout Git or GitHub because of the advantages, flexibility and easy to use option that Git provides.
- 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Changes in a seperate branch can be helpful when we would want to add some new possibilities or features to an existing project. Then we can finally merge it both with the local master and the remote GitHub as well once we are done with it
